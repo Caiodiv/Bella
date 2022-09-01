@@ -3,14 +3,21 @@
     </HEAD>
     <BODY>
     
-    <p>Aperte a tecla "B" para aparecer uma Mensagem para sua Amada </p>
+    <p>Aperte a tecla "b" para aparecer uma Mensagem para sua Amada </p>
     
     <script language="JavaScript">
-      function tecla(){
-        window.alert("eu te amo bella amor linda");
-      }
-      
-      document.body.onkeypress = tecla;
+        
+      document.addEventListener("keypress", function(e) {
+        if(e.key === 'b') {
+            
+            var btn = document.querySelector("#submit");
+            
+            window.alert("eu te amo bella amor linda");
+          
+          btn.click();
+        
+        }
+      });
     </script>
     
     </BODY>

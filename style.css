@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url(./img/Love.jpg);
+}
+
+img {
+    border: 5px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 500px;
+    padding: 0px;
+    
+}
+.container {
+    margin-top: 50px;
+   
+} 
+
+h1 {
+    color: rgb(63, 32, 136);
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}
+h2 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(136, 28, 28);
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+}

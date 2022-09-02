@@ -1,4 +1,4 @@
-    document.addEventListener("keypress", function (e) {
+   document.addEventListener("keypress", function (e) {
   if (e.key === "b" || e.key === "B") {
     var btn = document.querySelector("#submit");
 
@@ -221,4 +221,3 @@
     btn.click();
   }
 });
-
